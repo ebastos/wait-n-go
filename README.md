@@ -33,4 +33,21 @@ This will make sure the hello service will only start it's command after both Ma
 
 ## To build:
 
-```go build .```
+`go build .`
+
+### Using Dagger
+
+Make sure you have [Dagger](https://dagger.io/) installed.
+
+Initialize your project:
+
+```bash
+dagger project init
+dagger project update
+```
+
+Run the build:
+
+```bash
+dagger do build
+```
